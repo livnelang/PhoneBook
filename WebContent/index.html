@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/default.css">
+<meta charset="utf-8">
+<title>Insert title here</title>
+</head>
+	<body>
+		<div id="wrapper">
+			<header>
+				<nav>
+					<ul id="top_nav">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Add</a></li>
+						<li><a href="./controller/show_contact_list">Show People</a></li>
+						<li><a href="#">Sort</a></li>
+					</ul>
+				</nav>
+			</header>
+				<main>
+					<form id="myform" action="/PhoneBook/controller/add">
+						<section class="input_setion">
+							<label>First Name</label><input type="text" required name="f_name">
+						</section>
+							<section class="input_setion">
+								<label>ID</label><input type="number" required name="id">
+							</section>
+								<section class="input_setion">
+									<label>phone</label><input type="number" required name="phone">
+								</section>
+									<section class="input_setion">
+										<label>Submit</label><input type="submit" value="Add Contact">
+									</section>
+					</form>
+				</main>
+		</div>
+	
+	
+	
+	</body>
+		
+
+</html>

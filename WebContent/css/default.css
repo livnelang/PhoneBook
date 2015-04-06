@@ -1,0 +1,56 @@
+* 
+{
+	margin: 0px;
+	padding:0px;	
+}
+
+article,header,section,aside,nav {
+	display:block;
+}
+
+#wrapper {
+	position:relative;
+	margin:0px auto;
+	margin-top:50px;
+	width:1000px;
+	min-height: 500px;
+	box-shadow: 0px 0px 5px;
+}
+
+header {
+	height:100px;
+}
+
+#top_nav{
+	list-style:none;
+}
+
+#top_nav >li {
+	float:left;
+	padding-left:10px;
+}
+
+#top_nav >li >a{
+	text-decoration: none;
+}
+
+#top_nav >li >a:hover {
+	color:orange;
+	transition:0.7s;
+}
+
+#myform {
+	width:60%;
+	box-shadow: 0px 0px 3px brown;
+	margin:15px;
+}
+
+.input_setion {
+	margin:10px;
+	padding:10px;
+}
+
+.input_setion >input {
+	margin-left:15px;		
+}
+
